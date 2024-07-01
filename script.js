@@ -176,3 +176,8 @@ const hiraganaQueConheco = [
 	{ romanji: 'wa', symbol: 'わ' },
 	{ romanji: 'n', symbol: 'ん' },
 ]
+
+const index = Math.floor(Math.random() * hiraganaQueConheco.length)
+
+document.querySelector('#hiragana').innerHTML = hiraganaQueConheco[index].symbol
+document.querySelector('#romaji').innerHTML = hiraganaQueConheco[index].romaji
