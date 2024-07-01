@@ -166,7 +166,7 @@ const hiraganaQueConheco = [
 	{ romaji: 'tsu', symbol: 'つ|っ' },
 	{ romaji: 'te', symbol: 'て' },
 	{ romaji: 'na', symbol: 'な' },
-	{ romaji: 'ha', symbol: 'は' },
+	{ romaji: 'ha; wa', symbol: 'は' },
 	{ romaji: 'ma', symbol: 'ま' },
 	{ romaji: 'mi', symbol: 'み' },
 	{ romaji: 'mo', symbol: 'も' },
