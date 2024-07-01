@@ -1,60 +1,30 @@
-const hiragana = [
-	{ romanji: 'a', symbol: 'あ' },
-	{ romanji: 'i', symbol: 'い' },
-	{ romanji: 'u', symbol: 'う' },
-	{ romanji: 'e', symbol: 'え' },
-	{ romanji: 'o', symbol: 'お' },
+const hiraganaQueNaoConheco = [
 	// K
-	{ romanji: 'ka', symbol: 'か' },
-	{ romanji: 'ki', symbol: 'き' },
-	{ romanji: 'ku', symbol: 'く' },
 	{ romanji: 'ke', symbol: 'け' },
-	{ romanji: 'ko', symbol: 'こ' },
-	// S
-	{ romanji: 'sa', symbol: 'さ' },
-	{ romanji: 'shi', symbol: 'し' },
-	{ romanji: 'su', symbol: 'す' },
-	{ romanji: 'se', symbol: 'せ' },
-	{ romanji: 'so', symbol: 'そ' },
 	// T
-	{ romanji: 'ta', symbol: 'た' },
-	{ romanji: 'chi', symbol: 'ち' },
-	{ romanji: 'tsu', symbol: 'つ|っ' },
-	{ romanji: 'te', symbol: 'て' },
 	{ romanji: 'to', symbol: 'と' },
 	// N
-	{ romanji: 'na', symbol: 'な' },
 	{ romanji: 'ni', symbol: 'に' },
 	{ romanji: 'nu', symbol: 'ぬ' },
 	{ romanji: 'ne', symbol: 'ね' },
 	{ romanji: 'no', symbol: 'の' },
 	// H
-	{ romanji: 'ha', symbol: 'は' },
 	{ romanji: 'hi', symbol: 'ひ' },
 	{ romanji: 'fu', symbol: 'ふ' },
 	{ romanji: 'he', symbol: 'へ|ヘ' },
 	{ romanji: 'ho', symbol: 'ほ' },
 	// M
-	{ romanji: 'ma', symbol: 'ま' },
-	{ romanji: 'mi', symbol: 'み' },
 	{ romanji: 'mu', symbol: 'む' },
 	{ romanji: 'me', symbol: 'め' },
-	{ romanji: 'mo', symbol: 'も' },
 	// Y
 	{ romanji: 'ya', symbol: 'や|ゃ' },
-	{ romanji: 'yu', symbol: 'ゆ|ゅ' },
 	{ romanji: 'yo', symbol: 'よ|ょ' },
 	// R
-	{ romanji: 'ra', symbol: 'ら' },
-	{ romanji: 'ri', symbol: 'り' },
 	{ romanji: 'ru', symbol: 'る' },
 	{ romanji: 're', symbol: 'れ' },
 	{ romanji: 'ro', symbol: 'ろ' },
 	// W
-	{ romanji: 'wa', symbol: 'わ' },
 	{ romanji: 'wo', symbol: 'を' },
-	// N
-	{ romanji: 'n', symbol: 'ん' },
 	// P
 	{ romanji: 'pa', symbol: 'ぱ' },
 	{ romanji: 'pi', symbol: 'ぴ' },
@@ -174,4 +144,35 @@ const katakana = [
 	{ romanji: 'du', symbol: 'ヅ' },
 	{ romanji: 'de', symbol: 'デ' },
 	{ romanji: 'do', symbol: 'ド' },
+]
+
+const hiraganaQueConheco = [
+	{ romanji: 'a', symbol: 'あ' },
+	{ romanji: 'i', symbol: 'い' },
+	{ romanji: 'u', symbol: 'う' },
+	{ romanji: 'e', symbol: 'え' },
+	{ romanji: 'o', symbol: 'お' },
+	{ romanji: 'ka', symbol: 'か' },
+	{ romanji: 'ki', symbol: 'き' },
+	{ romanji: 'ku', symbol: 'く' },
+	{ romanji: 'ko', symbol: 'こ' },
+	{ romanji: 'sa', symbol: 'さ' },
+	{ romanji: 'shi', symbol: 'し' },
+	{ romanji: 'su', symbol: 'す' },
+	{ romanji: 'se', symbol: 'せ' },
+	{ romanji: 'so', symbol: 'そ' },
+	{ romanji: 'ta', symbol: 'た' },
+	{ romanji: 'chi', symbol: 'ち' },
+	{ romanji: 'tsu', symbol: 'つ|っ' },
+	{ romanji: 'te', symbol: 'て' },
+	{ romanji: 'na', symbol: 'な' },
+	{ romanji: 'ha', symbol: 'は' },
+	{ romanji: 'ma', symbol: 'ま' },
+	{ romanji: 'mi', symbol: 'み' },
+	{ romanji: 'mo', symbol: 'も' },
+	{ romanji: 'yu', symbol: 'ゆ|ゅ' },
+	{ romanji: 'ra', symbol: 'ら' },
+	{ romanji: 'ri', symbol: 'り' },
+	{ romanji: 'wa', symbol: 'わ' },
+	{ romanji: 'n', symbol: 'ん' },
 ]
