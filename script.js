@@ -180,3 +180,7 @@ const index = Math.floor(Math.random() * hiraganaQueConheco.length)
 
 document.querySelector('#hiragana').innerHTML = hiraganaQueConheco[index].symbol
 document.querySelector('#romaji').innerHTML = hiraganaQueConheco[index].romaji
+
+const intervalo = 10 * 60 * 1000
+
+setInterval(location.reload(), intervalo)
