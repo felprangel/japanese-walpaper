@@ -5,14 +5,14 @@ const hiraganaQueNaoConheco = [
 	{ romaji: 'nu', symbol: 'ぬ' },
 	// H
 	{ romaji: 'hi', symbol: 'ひ' },
-	{ romaji: 'he', symbol: 'へ|ヘ' },
+	{ romaji: 'he', symbol: 'へ' },
 	{ romaji: 'ho', symbol: 'ほ' },
 	// M
 	{ romaji: 'mu', symbol: 'む' },
 	{ romaji: 'me', symbol: 'め' },
 	// Y
-	{ romaji: 'ya', symbol: 'や|ゃ' },
-	{ romaji: 'yo', symbol: 'よ|ょ' },
+	{ romaji: 'ya', symbol: 'や' },
+	{ romaji: 'yo', symbol: 'よ' },
 	// R
 	{ romaji: 'ru', symbol: 'る' },
 	{ romaji: 're', symbol: 'れ' },
@@ -23,7 +23,7 @@ const hiraganaQueNaoConheco = [
 	{ romaji: 'pa', symbol: 'ぱ' },
 	{ romaji: 'pi', symbol: 'ぴ' },
 	{ romaji: 'pu', symbol: 'ぷ' },
-	{ romaji: 'pe', symbol: 'ぺ|ペ' },
+	{ romaji: 'pe', symbol: 'ぺ' },
 	{ romaji: 'po', symbol: 'ぽ' },
 	// G
 	{ romaji: 'ga', symbol: 'が' },
@@ -35,7 +35,7 @@ const hiraganaQueNaoConheco = [
 	{ romaji: 'ba', symbol: 'ば' },
 	{ romaji: 'bi', symbol: 'び' },
 	{ romaji: 'bu', symbol: 'ぶ' },
-	{ romaji: 'be', symbol: 'べ|ベ' },
+	{ romaji: 'be', symbol: 'べ' },
 	{ romaji: 'bo', symbol: 'ぼ' },
 	// Z
 	{ romaji: 'za', symbol: 'ざ' },
@@ -159,7 +159,7 @@ const hiraganaQueConheco = [
 	{ romaji: 'ta', symbol: 'た' },
 	{ romaji: 'no', symbol: 'の' },
 	{ romaji: 'chi', symbol: 'ち' },
-	{ romaji: 'tsu', symbol: 'つ|っ' },
+	{ romaji: 'tsu', symbol: 'つ' },
 	{ romaji: 'te', symbol: 'て' },
 	{ romaji: 'na', symbol: 'な' },
 	{ romaji: 'ne', symbol: 'ね' },
@@ -168,7 +168,7 @@ const hiraganaQueConheco = [
 	{ romaji: 'ma', symbol: 'ま' },
 	{ romaji: 'mi', symbol: 'み' },
 	{ romaji: 'mo', symbol: 'も' },
-	{ romaji: 'yu', symbol: 'ゆ|ゅ' },
+	{ romaji: 'yu', symbol: 'ゆ' },
 	{ romaji: 'ra', symbol: 'ら' },
 	{ romaji: 'ri', symbol: 'り' },
 	{ romaji: 'wa', symbol: 'わ' },
