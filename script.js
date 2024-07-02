@@ -7,7 +7,6 @@ const hiraganaQueNaoConheco = [
 	{ romaji: 'ni', symbol: 'に' },
 	{ romaji: 'nu', symbol: 'ぬ' },
 	{ romaji: 'ne', symbol: 'ね' },
-	{ romaji: 'no', symbol: 'の' },
 	// H
 	{ romaji: 'hi', symbol: 'ひ' },
 	{ romaji: 'fu', symbol: 'ふ' },
@@ -162,6 +161,7 @@ const hiraganaQueConheco = [
 	{ romaji: 'se', symbol: 'せ' },
 	{ romaji: 'so', symbol: 'そ' },
 	{ romaji: 'ta', symbol: 'た' },
+	{ romaji: 'no', symbol: 'の' },
 	{ romaji: 'chi', symbol: 'ち' },
 	{ romaji: 'tsu', symbol: 'つ|っ' },
 	{ romaji: 'te', symbol: 'て' },
