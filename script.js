@@ -1,6 +1,4 @@
 const hiraganaQueNaoConheco = [
-	// T
-	{ romaji: 'to', symbol: 'と' },
 	// N
 	{ romaji: 'nu', symbol: 'ぬ' },
 	// H
@@ -26,11 +24,7 @@ const hiraganaQueNaoConheco = [
 	{ romaji: 'pe', symbol: 'ぺ' },
 	{ romaji: 'po', symbol: 'ぽ' },
 	// G
-	{ romaji: 'ga', symbol: 'が' },
-	{ romaji: 'gi', symbol: 'ぎ' },
-	{ romaji: 'gu', symbol: 'ぐ' },
 	{ romaji: 'ge', symbol: 'げ' },
-	{ romaji: 'go', symbol: 'ご' },
 	// B
 	{ romaji: 'ba', symbol: 'ば' },
 	{ romaji: 'bi', symbol: 'び' },
@@ -44,11 +38,8 @@ const hiraganaQueNaoConheco = [
 	{ romaji: 'ze', symbol: 'ぜ' },
 	{ romaji: 'zo', symbol: 'ぞ' },
 	// D
-	{ romaji: 'da', symbol: 'だ' },
 	{ romaji: 'di', symbol: 'ぢ' },
 	{ romaji: 'du', symbol: 'づ' },
-	{ romaji: 'de', symbol: 'で' },
-	{ romaji: 'do', symbol: 'ど' },
 ]
 
 const katakana = [
@@ -161,6 +152,7 @@ const hiraganaQueConheco = [
 	{ romaji: 'chi', symbol: 'ち' },
 	{ romaji: 'tsu', symbol: 'つ' },
 	{ romaji: 'te', symbol: 'て' },
+	{ romaji: 'to', symbol: 'と' },
 	{ romaji: 'na', symbol: 'な' },
 	{ romaji: 'ne', symbol: 'ね' },
 	{ romaji: 'ni', symbol: 'に' },
@@ -174,6 +166,13 @@ const hiraganaQueConheco = [
 	{ romaji: 'wa', symbol: 'わ' },
 	{ romaji: 'n', symbol: 'ん' },
 	{ romaji: 'fu', symbol: 'ふ' },
+	{ romaji: 'ga', symbol: 'が' },
+	{ romaji: 'gi', symbol: 'ぎ' },
+	{ romaji: 'gu', symbol: 'ぐ' },
+	{ romaji: 'go', symbol: 'ご' },
+	{ romaji: 'da', symbol: 'だ' },
+	{ romaji: 'de', symbol: 'で' },
+	{ romaji: 'do', symbol: 'ど' },
 ]
 
 const index = Math.floor(Math.random() * hiraganaQueConheco.length)
