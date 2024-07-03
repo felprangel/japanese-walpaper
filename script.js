@@ -182,4 +182,4 @@ document.querySelector('#romaji').innerHTML = hiraganaQueConheco[index].romaji
 
 const intervalo = 10 * 60 * 1000
 
-setInterval(location.reload(), intervalo)
+setInterval(() => location.reload(), intervalo)
