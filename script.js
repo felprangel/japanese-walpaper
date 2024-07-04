@@ -87,7 +87,7 @@ const katakana = [
 	{ romaji: 'do', symbol: 'ド' },
 ]
 
-const hiraganaQueConheco = [
+const hiragana = [
 	{ romaji: 'a', symbol: 'あ' },
 	{ romaji: 'i', symbol: 'い' },
 	{ romaji: 'u', symbol: 'う' },
@@ -161,10 +161,10 @@ const hiraganaQueConheco = [
 	{ romaji: 'du', symbol: 'づ' },
 ]
 
-const index = Math.floor(Math.random() * hiraganaQueConheco.length)
+const index = Math.floor(Math.random() * hiragana.length)
 
-document.querySelector('#hiragana').innerHTML = hiraganaQueConheco[index].symbol
-document.querySelector('#romaji').innerHTML = hiraganaQueConheco[index].romaji
+document.querySelector('#hiragana').innerHTML = hiragana[index].symbol
+document.querySelector('#romaji').innerHTML = hiragana[index].romaji
 
 const intervalo = 10 * 60 * 1000
 
