@@ -1,42 +1,3 @@
-const hiraganaQueNaoConheco = [
-	// H
-	{ romaji: 'he', symbol: 'へ' },
-	// M
-	{ romaji: 'mu', symbol: 'む' },
-	{ romaji: 'me', symbol: 'め' },
-	// Y
-	{ romaji: 'ya', symbol: 'や' },
-	{ romaji: 'yo', symbol: 'よ' },
-	// R
-	{ romaji: 're', symbol: 'れ' },
-	{ romaji: 'ro', symbol: 'ろ' },
-	// W
-	{ romaji: 'wo', symbol: 'を' },
-	// P
-	{ romaji: 'pa', symbol: 'ぱ' },
-	{ romaji: 'pi', symbol: 'ぴ' },
-	{ romaji: 'pu', symbol: 'ぷ' },
-	{ romaji: 'pe', symbol: 'ぺ' },
-	{ romaji: 'po', symbol: 'ぽ' },
-	// G
-	{ romaji: 'ge', symbol: 'げ' },
-	// B
-	{ romaji: 'ba', symbol: 'ば' },
-	{ romaji: 'bi', symbol: 'び' },
-	{ romaji: 'bu', symbol: 'ぶ' },
-	{ romaji: 'be', symbol: 'べ' },
-	{ romaji: 'bo', symbol: 'ぼ' },
-	// Z
-	{ romaji: 'za', symbol: 'ざ' },
-	{ romaji: 'zi', symbol: 'じ' },
-	{ romaji: 'zu', symbol: 'ず' },
-	{ romaji: 'ze', symbol: 'ぜ' },
-	{ romaji: 'zo', symbol: 'ぞ' },
-	// D
-	{ romaji: 'di', symbol: 'ぢ' },
-	{ romaji: 'du', symbol: 'づ' },
-]
-
 const katakana = [
 	{ romaji: 'a', symbol: 'ア' },
 	{ romaji: 'i', symbol: 'イ' },
@@ -172,6 +133,32 @@ const hiraganaQueConheco = [
 	{ romaji: 'da', symbol: 'だ' },
 	{ romaji: 'de', symbol: 'で' },
 	{ romaji: 'do', symbol: 'ど' },
+	{ romaji: 'he', symbol: 'へ' },
+	{ romaji: 'mu', symbol: 'む' },
+	{ romaji: 'me', symbol: 'め' },
+	{ romaji: 'ya', symbol: 'や' },
+	{ romaji: 'yo', symbol: 'よ' },
+	{ romaji: 're', symbol: 'れ' },
+	{ romaji: 'ro', symbol: 'ろ' },
+	{ romaji: 'wo', symbol: 'を' },
+	{ romaji: 'pa', symbol: 'ぱ' },
+	{ romaji: 'pi', symbol: 'ぴ' },
+	{ romaji: 'pu', symbol: 'ぷ' },
+	{ romaji: 'pe', symbol: 'ぺ' },
+	{ romaji: 'po', symbol: 'ぽ' },
+	{ romaji: 'ge', symbol: 'げ' },
+	{ romaji: 'ba', symbol: 'ば' },
+	{ romaji: 'bi', symbol: 'び' },
+	{ romaji: 'bu', symbol: 'ぶ' },
+	{ romaji: 'be', symbol: 'べ' },
+	{ romaji: 'bo', symbol: 'ぼ' },
+	{ romaji: 'za', symbol: 'ざ' },
+	{ romaji: 'zi', symbol: 'じ' },
+	{ romaji: 'zu', symbol: 'ず' },
+	{ romaji: 'ze', symbol: 'ぜ' },
+	{ romaji: 'zo', symbol: 'ぞ' },
+	{ romaji: 'di', symbol: 'ぢ' },
+	{ romaji: 'du', symbol: 'づ' },
 ]
 
 const index = Math.floor(Math.random() * hiraganaQueConheco.length)
